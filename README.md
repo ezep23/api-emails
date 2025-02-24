@@ -2,6 +2,7 @@
 ## Usando la API de mailersend para enviar correos
 
 Como utilizarla:
+
     1. Clonar el repositorio e instalar las dependencias necesarias de cada carpeta (server y emails-app) con ```npm install ```
 
     2. Ir a la página de mailersend, crear una cuenta, un dominio y copiar la API-KEY
