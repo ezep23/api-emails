@@ -14,9 +14,9 @@ Como utilizarla:
 
 ### Capturas
 
-![App Screenshot](./emails-app/public/screen1.png)
-![App Screenshot](./emails-app/public/screen2.png)
-![App Screenshot](./emails-app/public/screen3.png)
+![App Screenshot](./emails-app/public/screenshots/screen1.png)
+![App Screenshot](./emails-app/public/screenshots/screen2.png)
+![App Screenshot](./emails-app/public/screenshots/screen3.png)
 
 
 
