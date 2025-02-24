@@ -2,21 +2,18 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <div class="app-container">
-    <h1>Mailer</h1>
+    <h1>¡Envía un correo!</h1>
       <form id="mailer-form">
         <div>
-            <label>Para:</label>
-            <input name='to' />
+          <input name='to' placeholder='Para:' />
         </div>
         <div>  
-            <label>Asunto:</label>
-            <input name='subject' />      
+          <input name='subject' placeholder='Asunto:'/>      
         </div>
-        <div>
-            <label>Mensaje:</label>
-            <textarea name='html'></textarea>
-         </div>
-         <button type="submit">Enviar</button>
+        <div class="textarea">
+          <textarea name='html' placeholder='Mensaje:'></textarea>
+          </div>
+          <button type="submit">Enviar</button>
       </form>
     <div id='error'></div>
   </div>
@@ -47,6 +44,6 @@ document.querySelector('#app').innerHTML = `
       }
 
     mailerform.reset()
-    alert('correo enviado con exito')
+    alert('¡Correo enviado con exito!')
   }
 })();
